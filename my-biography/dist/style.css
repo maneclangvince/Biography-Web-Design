@@ -1,0 +1,67 @@
+h1, h2, h3 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+
+.childhood, .college {
+  border-bottom: 2px solid #090b0a;
+  padding-bottom: 20px;
+  color: #090b0a;
+}
+.teenager {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+  margin-left: -160px
+  margin: 20px 240px;
+}
+
+body {
+  background-color: #090b0a;
+  background-image: url("");
+  margin: 0;
+}
+
+.childhood, .teenager, .college {
+  margin-top: 4px;
+}
+
+.border {
+  margin-top: -10px;
+  padding-bottom: -40px; 
+  border-bottom: 2px solid #ffffff;
+  background-color: #090b0a;
+}
+
+.brightness-high {
+  display: flex;
+  align-item: center;
+  justify-content: center;
+}
+
+.childcontainer, .collegecontainer {
+  background-color: #8fbaa9;
+  color: #090b0a;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.teenagecontainer {
+  background-color: #3b414a;
+  color: #ffffff;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
