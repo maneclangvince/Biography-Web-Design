@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#d8edf2;
+    color:#0c2126;
+}
+
+.container{
+    max-width:900px;
+    margin:40px auto;
+    padding:20px;
+}
+
+h1,h3{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+h1{
+    color:#0c2126;
+}
+
+h2{
+    color:#d8edf2;
+    text-align: center;
+    padding: 30px;
+}
+
+#back{
+    color:#d8edf2;
+    text-align: center;
+    padding: 10px;
+}
+
+.blog{
+    background:#0c2126;
+    padding:20px 40px;
+    margin-bottom:25px;
+    border-radius:10px;
+}
+
+.phrase, .directory, .back{
+    background:#0c2126;
+    margin-bottom:25px;
+    border-radius:10px;
+}
+
+.directory{
+    padding: 20px;
+}
+
+.directory a{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#d8edf2;
+    text-decoration:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-weight:600;
+}
+
+.directory a:hover, #back:hover{
+    text-decoration:underline;
+}
+.blog h3{
+    color:#b2a3f4;
+    margin-top:25px;
+    margin-bottom:10px;
+}
+
+.blog p, h4{
+    line-height:1.7;
+    color:#d1d5db;
+    text-align:justify;
+}
+
+.author{
+    background:#0c2126;
+    padding:20px 40px;
+    margin-bottom:25px;
+    border-radius:10px;
+}
+
+p{
+    text-indent:50px;
+}
